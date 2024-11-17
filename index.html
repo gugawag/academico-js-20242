@@ -8,8 +8,15 @@
   <h1>IFPB</h1>
 
   <input id="nome" placeholder="Nome">
-  <button onclick="inserirNome()">Inserir</button>
+  <input id="idade" placeholder="idade">
+  <input id="cpf" placeholder="cpf">
+  <button onclick="controlador.inserir()">Inserir</button>
+  <ul></ul>
 
+  <script src="js/modelo/usuario.js"></script>
+  <script src="js/modelo/repositorio/repositorio_usuario.js"></script>
+  <script src="js/modelo/servico/usuario_servico.js"></script>
+  <script src="js/modelo/controlador_usuario.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
