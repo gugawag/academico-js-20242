@@ -1,6 +1,5 @@
 const controlador = new ControladorUsuario();
 
-controlador.servico = undefined;
 
 
 

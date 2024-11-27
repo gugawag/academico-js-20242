@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "outDir": "app/js",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+//    "noImplicitReturns": true
+  },
+
+  "include": [
+    "app/ts/**/*"
+  ]
+}
